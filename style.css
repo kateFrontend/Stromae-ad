@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ece9e8;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+.photo{
+    position: relative;
+}
+
+.nav {
+    position: absolute;
+    top:20px;
+    left: 20px;
+}
+
+.music {
+    padding: 5px 15px;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color:#682629;
+    color: white;
+}
+
+.imageStromae {
+    width: 100%;
+    height: auto;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.descr {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+h1 {
+    color: #682629;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.tour {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+p {
+    font-size: 12px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.btn {
+    padding: 10px 50px;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color:#682629;
+    color: white;
+}
+
+.presale {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 30px;
+    color:#682629;
+
+}
+
+.counter {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.days, .hours, .minutes, .seconds {
+    font-size: 80px;
+    margin: 0;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.red {
+    font-size: 60px;
+    border: none;
+    color: #682629;
+}
+
+@media all and (max-width: 820px) {
+
+    .descr {
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .presale {
+        font-size: 20px;
+    }
+
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .presale {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+    
+
+    .counter {
+        flex-direction: column;
+    }
+}
