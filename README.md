@@ -1,6 +1,6 @@
 
 <div>
-  <h1></h1> 
+  <h1>Stromae tickets presale</h1> 
   <img src="image/Stromae.JPG" alt="Stromae" width="auto">
 </div>
 
