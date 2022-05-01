@@ -1,12 +1,12 @@
 
 <div>
   <h1></h1> 
-  <img src="" alt="" width="auto">
+  <img src="image/Stromae.JPG" alt="Stromae" width="auto">
 </div>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+One page announcement of Stromae concert in Montreal with JS countdown timer and music play function
 
   <p>
     <a href="https://stromae-presale.glitch.me">View Demo Here</a>
