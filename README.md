@@ -18,7 +18,8 @@ One page announcement of Stromae concert in Montreal with JS countdown timer and
  
 <!-- USAGE EXAMPLES -->
 ## Usage
-
+<p>By clicking on the play button you can listen to one of the latest hits of Stromae.</p>
+<p>The javascript countdown timer counts how much time is left before the opening of the pre-sale of tickets for the concert.</p>
 <p>All photo and video materials are used for educational purposes only.</p>
 <p>Application is responsive for all mobile devices.</p>
 
